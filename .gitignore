@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+
+# Production build
+dist/
+dist-ssr/
+
+# Environment variables (JANGAN PERNAH COMMIT KREDENSIAL)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs & Editor
+*.log
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+.idea/
